@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/SeleniumCucumberWithJava.iml" filepath="$PROJECT_DIR$/SeleniumCucumberWithJava.iml" />
+      <module fileurl="file://$PROJECT_DIR$/CucumberPractice.iml" filepath="$PROJECT_DIR$/CucumberPractice.iml" />
     </modules>
   </component>
 </project>
