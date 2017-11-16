@@ -39,7 +39,7 @@ public class StepDefinition extends BaseUtil {
     }
 
     @When("^I enter valid \"([^\"]*)\" and \"([^\"]*)\"$")
-    public void iEnterValidAnd(String username, String password) {
+    public void validatedetails(String username, String password) {
         base.driver.findElement(By.id("Email")).sendKeys(username);
         base.driver.findElement(By.id("Password")).sendKeys(password);
     }
