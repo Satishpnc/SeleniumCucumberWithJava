@@ -1,4 +1,4 @@
-package steps;
+package runner;
 
 import Base.BaseUtil;
 import cucumber.api.Scenario;
@@ -26,9 +26,13 @@ public class Hook extends BaseUtil {
     @Before
     public void InitializeTest() {
         System.out.println("Opening The Browser: Chrome");
+
+        //local execution
         System.setProperty("webdriver.chrome.driver", "C://driver//chromedriver.exe");
-        //System.out.println(System.setProperty("webdriver.chrome.driver", "C://driver//chromedriver.exe"));
         base.driver = new ChromeDriver();
+
+        //selenium execution
+
     }
 
     @After
