@@ -1,6 +1,7 @@
 package Base;
 
 import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.remote.RemoteWebDriver;
 
 public class BaseUtil {
 
@@ -9,5 +10,7 @@ public class BaseUtil {
      */
 
     public WebDriver driver = null;
+
+    //public RemoteWebDriver driver = null;
 
 }

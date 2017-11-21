@@ -1,4 +1,4 @@
-Feature: Facebook Login
+Feature: CarSales Login
   This feature deals with the login functionality
 
   Scenario Outline: Login with valid credentials

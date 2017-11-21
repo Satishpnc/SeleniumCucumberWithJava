@@ -51,7 +51,7 @@ public class StepDefinition extends BaseUtil {
     }
 
     @Then("^I logged into CarSales")
-    public void iLoggedIntoFacebook() {
+    public void iLoggedIntoCarSales() {
         LoginPage page = new LoginPage(base.driver);
         page.isDisplayedSuccessfulLogin();
     }

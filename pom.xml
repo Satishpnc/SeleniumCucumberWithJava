@@ -116,7 +116,7 @@
                             <goal>generate</goal>
                         </goals>
                         <configuration>
-                            <projectName>Facebook Automation</projectName>
+                            <projectName>SeleniumCucumber Automation</projectName>
                             <!-- Creates Directory With Reports, And a .JSON File, if ran with Maven -->
                             <outputDirectory>${project.build.directory}/cucumber-html-reports</outputDirectory>
                             <cucumberOutput>${project.build.directory}/cucumber.json</cucumberOutput>
